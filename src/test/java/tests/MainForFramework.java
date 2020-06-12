@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+import utilities.UtilFunctions;
+
 public class MainForFramework extends BaseTest{
 
 	@Test
@@ -13,7 +15,7 @@ public class MainForFramework extends BaseTest{
 		
         String actualTitle = driver.getTitle();
         System.out.println("==== Title : "+actualTitle);
-        screenshot("HomePage");
+        UtilFunctions.screenshot("HomePage");
 	}
 
 }
