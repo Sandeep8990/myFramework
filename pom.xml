@@ -58,5 +58,42 @@
     <version>4.0.0</version>
 </dependency>
 
+<!--Service testing - Rest assured  -->
+<!-- <dependency>
+<groupId>io.rest-assured</groupId>
+<artifactId>json-path</artifactId>
+<version>4.2.0</version>
+<scope>test</scope>
+</dependency>
+
+
+<dependency>
+<groupId>io.rest-assured</groupId>
+<artifactId>xml-path</artifactId>
+<version>4.2.0</version>
+<scope>test</scope>
+</dependency>
+
+
+<dependency>
+<groupId>io.rest-assured</groupId>
+<artifactId>json-schema-validator</artifactId>
+<version>4.2.0</version>
+<scope>test</scope>
+</dependency> -->
+
+<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>4.3.0</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+                <groupId>org.codehaus.groovy</groupId>
+                <artifactId>groovy-all</artifactId>
+                <version>2.4.5</version>
+            </dependency>
+      
 	</dependencies>
 </project>
